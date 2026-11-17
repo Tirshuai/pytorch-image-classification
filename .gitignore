@@ -1,19 +1,29 @@
+# Python
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
 
-.env
+# Environment
 .venv/
-.idea/
-.vscode/
+venv/
+env/
+.conda/
 
-outputs/*
-!outputs/.gitkeep
-
+# Dataset
 data/
+
+# Model checkpoints
 *.pth
 *.pt
 *.ckpt
-*.onnx
 
+# TensorBoard
+runs/
+events.out.tfevents.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
+Thumbs.db
